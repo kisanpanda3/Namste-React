@@ -1,17 +1,5 @@
-
-{/* <div id="parent">
-<div id="child">
-<h1>i am child 1</h1>
-<h2>i am child 1</h2>
-</div>
-</div> */}
-
-{/* <div id="parent">
-<div id="child2">
-<h1>i am child 1</h1>
-<h2>i am child 1</h2>
-</div>
-</div> */}
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 const parent = React.createElement(
    "div",
@@ -23,7 +11,6 @@ const parent = React.createElement(
 )
 
 // ReactElelment(Object) => HTML (Browser Understands)
-// JSX = Javascript XML
 
 console.log(parent); // Return an object to you
 
